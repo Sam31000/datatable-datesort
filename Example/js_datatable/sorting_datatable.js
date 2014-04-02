@@ -1,8 +1,8 @@
 $("#Table").dataTable({
  "aoColumns" :[
-				{"sType": "@culture"}, // @culture is your culture variable (for this exemple it's "eu_date" or "us_date" depending of the user choose)
+		{"sType": "@culture"}, // @culture is your culture variable (for this exemple it's "eu_date" or "us_date" depending of the user choose)
                ]
-			   });
+	});
 
 //Here we convert eu date to sortable item using dateToSortableItem
 jQuery.fn.dataTableExt.oSort['eu_date-asc'] = function (a, b) {
