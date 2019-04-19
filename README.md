@@ -1,15 +1,15 @@
 A way to sort dates in an easy way with different cultures
 ==================
 
-Little function to format date to an easy sortable string.
+Little function convert date to an easy sortable string.
 
-Very usefull when you use a JS datatable with a different cultures and a sortable columns with dates. 
+Very usefull when you use a JS datatable with different cultures and sortable columns with dates. 
 
 
 Setup
 ==================
 
-The only thing to do to set up the function is to include dateToSortableItem.js to your project.
+The only thing you have to do to set up the function is to include dateToSortableItem.js to your project.
 
 Example :
 ```html
